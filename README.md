@@ -14,5 +14,8 @@ Follow the set up steps below to run the application using docker
 - - Open a terminal running locally on your computer (requires python and python's requests module installed)
 - - Start using the cli typing ***python cli.py -h***
 
+## Testing
+To run a test script testing the different endpoints, simply type ***docker exec olavfp/pls-rest-server python testing.py*** in a local shell, or ***python testing.py*** in an interactive shell within the container.
+
 ## Finishing
 - After using the api, stop the container typing ***docker stop olavfp/pls-rest-server***
